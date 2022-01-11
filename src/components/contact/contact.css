@@ -1,0 +1,74 @@
+.reach-out {
+  text-align: center;
+  font-family: "Roboto Condensed";
+  font-size: 80px;
+}
+
+.item {
+  background-color: #141b1d;
+  border-radius: 50px;
+}
+
+.contact-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  width: 200px;
+  height: 200px;
+  background-color: #141b1d;
+}
+
+.contact-image:hover {
+  animation: wiggle 150ms infinite;
+  animation-timing-function: linear;
+}
+@keyframes wiggle {
+  0% {
+    transform: translate(4px, 0);
+  }
+  50% {
+    transform: translate(-4px, 0);
+  }
+  100% {
+    transform: translate(4px, 0);
+  }
+}
+
+.carousel {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 165px;
+}
+
+.carousel-indicators {
+  background: transparent;
+}
+
+/* Mobile Responsive */
+
+@media screen and (max-width: 700px) {
+  .carousel {
+    width: 350px;
+  }
+
+  .reach-out {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .carousel {
+    width: 250px;
+  }
+
+  .contact-image {
+    width: 170px;
+    height: 170px;
+  }
+
+  .reach-out {
+    font-size: 60px;
+  }
+}
