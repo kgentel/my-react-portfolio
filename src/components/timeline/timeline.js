@@ -7,9 +7,8 @@ function timeline() {
     <div className="gradient">
       <div className="timeline-title">
         Rewind&nbsp;&nbsp;
-
         <svg
-        className="icon"
+          className="icon"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 512 512"
           width={50}
@@ -22,15 +21,20 @@ function timeline() {
       </div>
       <div className="timeline timeline-section">
         <div className="timeline-container left">
-          <div className="date">Aug. '21</div>
+          <div className="date">Jan. '22</div>
           <div className="content">
-            <h4>Full Stack Web Developer</h4>
-            <p>
-              Earned certificate from The Univeristy of Texas at Austin. Yay!!
-            </p>
+            <h4>Software Engineer Intern</h4>
+            <p>Currently software engineering at AMTIL! Woohoo!!</p>
           </div>
         </div>
         <div className="timeline-container right">
+          <div className="date">Aug. '21</div>
+          <div className="content">
+            <h4>Full Stack Web Developer</h4>
+            <p>Earned certificate from The Univeristy of Texas at Austin.</p>
+          </div>
+        </div>
+        <div className="timeline-container left">
           <div className="date"> Nov. '19 </div>
           <div className="content">
             <h4>Elementary Teacher</h4>
@@ -40,21 +44,21 @@ function timeline() {
             </p>
           </div>
         </div>
-        <div className="timeline-container left">
+        <div className="timeline-container right">
           <div className="date"> May '18 </div>
           <div className="content">
             <h4>Bachelor of Science in Biology</h4>
             <p>Earned a BS in Biology with a minor in Psychology.</p>
           </div>
         </div>
-        <div className="timeline-container right">
+        <div className="timeline-container left">
           <div className="date"> Dec. '16 </div>
           <div className="content">
             <h4>Associate of Science in Biology</h4>
             <p>Earned a AS in Biology, and an Associate of Arts </p>
           </div>
         </div>
-        <div className="timeline-container left">
+        <div className="timeline-container right">
           <div className="date"> May '12 </div>
           <div className="content">
             <h4>Moved to the US</h4>
